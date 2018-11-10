@@ -1,0 +1,67 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	background-color:slategray;
+	/* Margin bottom by footer height */
+  	margin-bottom: 60px;
+}
+
+#wrap {
+	background-color:slategray;
+	color:black;
+}
+
+#header {
+	background-color:slategray;
+	height:70px;
+}
+
+#title {
+	color: white;
+	text-align:center;
+	font-family: 'Roboto|Ubuntu';
+	padding-top:16px;
+}
+
+#buttonArea{
+	margin-top:10px;
+}
+
+.btn {
+	margin:3px;
+}
+
+#gifArea {
+	margin-top:20px;
+}
+
+.orangeBorder {
+	border-radius: 5px;
+	border: 2px solid orange;
+}
+
+.submit {
+	background-color: black;
+	color:white;
+	border:1px solid #646464;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align:center;
+    background-color: slategray;
+}
+
+.credits {
+	font-size: .8em;
+}
+.clear {
+	clear:both;
+}
